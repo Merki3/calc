@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Merkies Calculator</title>
+    <link rel="stylesheet" href="calc.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Merkies Calculator</h1>
+        <div class="calculator">
+            <div class="input-group">
+                <input type="text" id="binary1" placeholder="Enter first binary number" />
+                <span id="decimal1" class="decimal-value"></span>
+            </div>
+            <div class="input-group">
+                <input type="text" id="binary2" placeholder="Enter second binary number" />
+                <span id="decimal2" class="decimal-value"></span>
+            </div>
+            <button id="addBtn">Add</button>
+            <button id="subtractBtn">Subtract</button>
+            <h2>Result: <span id="result"></span></h2>
+            <div id="steps" class="steps"></div>
+        </div>
+    </div>
+    <script src="calc.js"></script>
+</body>
+</html>
